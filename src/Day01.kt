@@ -1,3 +1,5 @@
+
+
 fun main() {
     /* Puzzle: Figure out how quickly the depth increases
       Count the number of times a depth measurement increases from
@@ -17,11 +19,8 @@ fun main() {
 //                (a,b) -> a.sum() < b.sum()
 // solution 2: subtract B + C from both sides of the equation.
         // now you can compare A and D.
-        return input
-            .windowed(4)
-            .count { it[0] < it[3]
-
-    }
+        val answer: Int = input.windowed(4).count { it[0] < it[3] }
+        return answer
     }
 
     val input = readInputAsInts("Day01")

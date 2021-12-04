@@ -6,6 +6,7 @@ fun main() {
         key: horizontal : value -> add
         Key: depth: value -> either add or subtract
         Solution: Multiply horizontal by depth
+        include aim
     */
 
     fun part1(input: List<String>): Int {

@@ -1,4 +1,6 @@
+package day1
 
+import readInputAsInts
 
 fun main() {
     /* Puzzle: Figure out how quickly the depth increases

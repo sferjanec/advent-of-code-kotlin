@@ -1,4 +1,6 @@
+package day2
 
+import readInput
 
 fun main() {
     /* Puzzle: Calculate horizontal position and depth
@@ -42,6 +44,10 @@ fun main() {
         }
         return (horizontal * depth)
     }
+
+    // test if implementation meets criteria from the description, like:
+    //val testInput = readInput("Day01_test")
+    //check(day3.part1(testInput) == 1)
 
     val input = readInput("Day02")
     println(part1(input))

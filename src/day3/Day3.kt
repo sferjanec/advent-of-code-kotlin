@@ -134,6 +134,6 @@ fun part2() {
 }
 
 fun main() {
-   // part1()
-    part2()
+    part1()
+   // part2()
 }
